@@ -1,4 +1,8 @@
 window.onload=function(){
+
+  var d = new Date();
+  document.getElementById("date").innerHTML = d.toDateString();
+
     var form = document.getElementById("form");
     var input = document.getElementById("input");
     var btn = document.getElementById("btn");
@@ -34,10 +38,10 @@ window.onload=function(){
     //strike through after pressing the checkbox
     function boxChecked(event){
       const element = event.target;
-
-      if(element.type === "checkbox"){
+     /* 
+     if(element.type === "checkbox"){
         element.parentNode.style.textDecoration = "line-through";
-      }
+      }*/
      //deleting the strike through text
       if(element.tagName == "I"){
         element.parentNode.style.display = "none";
