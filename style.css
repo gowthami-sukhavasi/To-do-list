@@ -42,3 +42,7 @@ body{
     transform: scale(1.2);
     color: red;
  }
+ .checkboxes[type="checkbox"]:checked ~ span{	
+	color: #586186;
+	text-decoration: line-through;
+}
