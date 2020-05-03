@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="style.css">
   <script src="index.js"></script>
   <title>To-do list</title>
@@ -14,6 +15,9 @@
     <div class="card-body">
       <h4 class="card-title">TO-DO LIST</h4>
       <form id="form" class="col">
+        <div class="d-flex" id="date">
+          <div id="month"></div>
+        </div>
         <div class="d-flex">
         <input type="text" class="form-control" id="input"> 
         <button type="button" class="btn btn-info" id="btn">Add</button>
