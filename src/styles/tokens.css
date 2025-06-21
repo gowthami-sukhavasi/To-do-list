@@ -1,0 +1,27 @@
+:root[data-theme="light"] {
+    --bg-mobile: url("../assets/bg-mobile-light.jpg");
+    --bg-desktop: url("../assets/bg-desktop-light.jpg");
+    --bg-color: whitesmoke;
+    --bg-input: white;
+    --font-color-input: hsl(235, 19%, 35%);
+    --font-color-todo-item: hsl(235, 19%, 35%);
+    --font-color-checked-item: hsl(236, 9%, 61%);
+    --font-filter-active: hsl(220, 98%, 61%);
+    --font-filter-text: hsl(234, 11%, 52%);
+    --filter-hover: hsl(236, 9%, 61%);
+    --border-bottom: hsl(236, 33%, 92%);
+}
+
+:root[data-theme="dark"] {
+    --bg-mobile: url("../assets/bg-mobile-dark.jpg");
+    --bg-desktop: url("../assets/bg-desktop-dark.jpg");
+    --bg-color: hsl(235, 21%, 11%);
+    --bg-input: hsl(235, 24%, 19%);
+    --font-color-input: white;
+    --font-color-todo-item: hsl(234, 39%, 85%);
+    --font-color-checked-item: hsl(234, 11%, 52%);
+    --font-filter-active: hsl(220, 98%, 61%);
+    --font-filter-text: hsl(234, 11%, 52%);
+    --filter-hover: hsl(236, 33%, 92%);
+    --border-bottom: hsl(233, 14%, 35%);
+}
